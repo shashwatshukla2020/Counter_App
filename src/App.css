@@ -1,0 +1,61 @@
+* {
+  background-color: rgb(53, 47, 78);
+}
+.App {
+  margin: auto;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  width: 50%;
+}
+.headingupper {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 204, 255);
+}
+
+.contentmiddle {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  margin: 20px;
+  height: 40px;
+  gap: 5rem;
+}
+.minus {
+  background-color: white;
+}
+
+.minus button {
+  background-color: white;
+  border: none;
+  font-size: xx-large;
+}
+
+.count {
+  background-color: white;
+  font-size: xx-large;
+}
+.plus {
+  background-color: white;
+}
+
+.plus button {
+  background-color: white;
+  border: none;
+  font-size: xx-large;
+}
+
+.resetbutton {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+}
+.resetbutton button {
+  background-color: #0398d4;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  border: none;
+  font-size: large;
+}
